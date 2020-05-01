@@ -7,7 +7,7 @@ public class Cellule {
 	private int largeur;
 	private String type; // void, wall, door, stairs
 	
-	String[] typesPossibles = {"void", "wall", "door", "stairs", "\t"};
+	String[] typesPossibles = {"void", "wall", "door", "stai", "    "};
 
 	//Constructeur d'initialisation
 	public Cellule(int posLigne, int posColonne, int largeur, int hauteur, String type) {
@@ -22,7 +22,7 @@ public class Cellule {
 		posColonne = 0;
 		hauteur = 1;
 		largeur = 1;
-		type = "\t";
+		type = "    ";
 	}
 	
 	// Getters

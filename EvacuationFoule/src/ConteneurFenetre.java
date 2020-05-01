@@ -4,8 +4,7 @@ import java.awt.Font;
 import java.awt.Graphics;
 
 public class ConteneurFenetre extends JPanel{
-	int[][] grille = Principale.createGrid(10,10);
-	Principale.borderWall(grille);
+	private Grille grille;
 	
 	Color wall = new Color(153,153,102);
 	Color door = new Color(128,43,0);
